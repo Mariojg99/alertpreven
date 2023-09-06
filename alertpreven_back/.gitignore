@@ -1,0 +1,36 @@
+# Ignorar carpetas y archivos generados automáticamente
+node_modules/
+npm-debug.log
+
+# Ignorar archivos de configuración local
+.env
+
+# Ignorar archivos de registro
+logs/
+*.log
+
+# Ignorar archivos de respaldo
+*.bak
+*.swp
+
+# Ignorar archivos de construcción
+build/
+dist/
+out/
+
+# Ignorar archivos de dependencias de editor
+.vscode/
+.idea/
+
+# Ignorar archivos de dependencias específicas
+.pnp.js
+.pnp.cjs
+
+# Ignorar archivos de registro de pruebas
+coverage/
+
+# Ignorar archivos de configuración de IDE (Ejemplo para Visual Studio Code)
+.vscode/
+
+# Ignorar archivos de configuración de editor (Ejemplo para WebStorm)
+.idea/
